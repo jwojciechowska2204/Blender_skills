@@ -1,0 +1,10 @@
+Utwórz realistyczną scenę 3D w Blenderze Cycles z:
+
+Szkieletem – anatomicznie poprawny, stojący człowiek-szkielet z kości, biały/kremowy, ze szczegółowymi żebrami, miednicą i kośćmi dłoni. Trzyma smycz w prawej dłoni.
+Psem z ludzką głową – ciało psa rasy Chow Chow (brązowo-pomarańczowe futro, krępa budowa, siedząca poza), zamiast psiej głowy ma realistyczną ludzką głowę (łysa, neutralna ekspresja). Pies ma obrożę i smycz przymocowaną do szyi.
+Smycz – różowo-czerwona, zakrzywiona linia między szkieletem a psem (cylinder lub krzywa Bézier).
+Podłoże – ciemnoniebiesko-szara gładka powierzchnia z subtelnym połyskiem (glossy BSDF).
+Tło – ciemne, neutralne (kolor ~#3a3a3a).
+Oświetlenie – górne, punktowe/area light na białe/niebieskie, rzucające wyraźne cienie pod szkielet i psa.
+Kamera – lekko z boku i z dołu, FOV ~50mm, scena wykadrowana od stóp do głów.
+Render – Cycles, 1456×816, 512 samplów, denoising włączony.
